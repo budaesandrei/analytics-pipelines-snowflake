@@ -14,7 +14,7 @@ There are various ways to authenticate but in this template we will create and u
 1. Navigate to [IAM & Roles](https://console.cloud.google.com/iam-admin/serviceaccounts) and select your project
 2. Click **+ CREATE SERVICE ACCOUNT** and add a service account name (e.g. bigquery-python), add a **description** (optional) and click **CREATE AND CONTINUE**
 3. Add **Roles** from the dropdown and **+ ADD ANOTHER ROLE** as many times as needed then **CONTINUE**:
-    * Add **BigQuery Admin**
+    * Add **Basic** > **Owner**
 4. Click **Done**
 5. Once the **Service Account** has been created, click on the three dots under **Action** and click **Manage Keys**
 6. From the next page, click on **ADD KEY** > **Create New Key** > **JSON** > **Create**
